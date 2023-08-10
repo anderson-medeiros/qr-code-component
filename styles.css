@@ -4,7 +4,11 @@
 
 body {
   width: 100vw;
+  height: 100vh;
   padding: 20px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
   box-sizing: border-box;
@@ -16,10 +20,9 @@ img {
 }
 
 main {
-  margin: 0 auto;
   max-width: 375px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
   background-color: hsl(0, 0%, 100%);
 }
@@ -31,7 +34,11 @@ h1 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+}
+
+main > div {
+  padding: 0 20px;
 }
